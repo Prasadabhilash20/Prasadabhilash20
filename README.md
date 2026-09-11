@@ -1,24 +1,143 @@
-# 💫 About Me:
-👋 Hi, I'm Abhilash Prasad<br><br>🎓 Computer Science graduate and aspiring Software Developer passionate about building practical and scalable applications.<br><br>💻 Tech Stack:<br>Python | Django | REST APIs | HTML | CSS | JavaScript | Bootstrap | SQL | MySQL | PostgreSQL | SQLite | MongoDB | Git | GitHub | Linux<br><br>💼 Experience:<br>Working in Graphic Design & IT Support, with experience in digital creatives, branding, software/hardware troubleshooting, system maintenance, software installation, backups, and technical support.<br><br>🚀 Featured Project:<br>Shikayat Saathi — A Django-based College Complaint Management System.<br><br>🌱 Currently Learning:<br>Advanced Django | REST APIs | DSA | Backend Development | Linux & DevOps<br><br>🤝 Open to opportunities in:<br>Python/Django Development | Backend Development | Software Engineering | IT Support<br><br>📫 Let's Connect:<br>GitHub | LinkedIn | Email
+<div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/main/assets/banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/main/assets/banner-light.png">
+  <img alt="Profile Banner" src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/main/assets/banner-light.png" width="100%">
+</picture>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_abhilash_prasad_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/prasadabhilash20/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:prasadabhilash542@gmail.com) 
+<br><br>
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Prasadabhilash20&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Prasadabhilash20&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Prasadabhilash20&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+# Hey there, I'm Abhilash Prasad 👋
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Prasadabhilash20&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Computer+Science+Graduate+%F0%9F%8E%93;Python+%7C+Django+Developer+%F0%9F%92%BB;Backend+%26+Software+Engineering;IT+Support+%26+Systems+%F0%9F%94%A7" alt="Typing SVG" />
+</a>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<br><br>
 
----
-[![](https://komarev.com/ghpvc/?username=Prasadabhilash20&icon=0&color=0)](https://visitcount.itsvg.in)
+<img src="https://img.shields.io/github/followers/Prasadabhilash20?label=Followers&style=for-the-badge&color=38BDF8&labelColor=1a1a1a" alt="Followers"/>
+<img src="https://img.shields.io/github/stars/Prasadabhilash20?label=Stars&style=for-the-badge&color=7DD3FC&labelColor=1a1a1a" alt="Stars"/>
+<img src="https://komarev.com/ghpvc/?username=Prasadabhilash20&label=Profile+Views&style=for-the-badge&color=0EA5E9&labelColor=1a1a1a" alt="Profile Views"/>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+</div>
+
+<br>
+
+## 💫 About Me
+
+<table>
+<tr>
+<td width="65%" valign="top">
+
+- 🔭 I'm currently working on **Shikayat Saathi — a Django-based College Complaint Management System**
+- 🌱 I'm currently learning **Advanced Django, REST APIs, DSA, Backend Development, Linux & DevOps**
+- 👯 I'm looking to collaborate on **Python/Django & Backend Development projects**
+- 💬 Ask me about **Django, REST APIs, SQL/NoSQL databases, or IT/System Support**
+- 💼 Background in **Graphic Design & IT Support** — branding, troubleshooting, system maintenance
+- 📫 How to reach me: **prasadabhilash542@gmail.com**
+
+</td>
+<td width="35%" valign="top" align="center">
+
+<img src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/main/assets/profile-illustration.gif" width="100%">
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,py,django,java,cpp,mysql,postgres,sqlite,mongodb,git,github,linux,figma,ps&theme=light" />
+
+</div>
+
+<br>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Prasadabhilash20&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=38BDF8&icon_color=0EA5E9&text_color=7DD3FC" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prasadabhilash20&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=38BDF8&text_color=7DD3FC" />
+
+<br>
+
+<img width="70%" src="https://streak-stats.demolab.com/?user=Prasadabhilash20&theme=tokyonight&hide_border=true&background=00000000&ring=0EA5E9&fire=38BDF8&currStreakLabel=7DD3FC" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prasadabhilash20&theme=react-dark&hide_border=true&bg_color=00000000&color=7DD3FC&line=0EA5E9&point=38BDF8" width="90%"/>
+
+</div>
+
+<br>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/blue-snake.svg" width="90%">
+
+</div>
+
+<!--
+  Add this GitHub Action to generate the snake above:
+  (create .github/workflows/snake.yml in your profile repo)
+
+  name: Generate Snake
+  on:
+    schedule:
+      - cron: "0 0 * * *"
+    workflow_dispatch:
+    push:
+      branches:
+        - main
+  jobs:
+    generate:
+      permissions:
+        contents: write
+      runs-on: ubuntu-latest
+      steps:
+        - uses: Platane/snk@v3
+          with:
+            github_user_name: Prasadabhilash20
+            outputs: |
+              dist/blue-snake.svg?color_snake=%230EA5E9&color_dots=%237DD3FC,%2338BDF8,%230EA5E9,%2338BDF8,%237DD3FC
+        - uses: crazy-max/ghaction-github-pages@v4
+          with:
+            target_branch: output
+            build_dir: dist
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+-->
+
+<br>
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/prasadabhilash20/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://instagram.com/_abhilash_prasad_" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-0EA5E9?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+<a href="mailto:prasadabhilash542@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Email-7DD3FC?style=for-the-badge&logo=gmail&logoColor=black" />
+</a>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,100:0EA5E9&height=150&section=footer" width="100%"/>
+
+</div>
