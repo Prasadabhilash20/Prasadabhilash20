@@ -21,7 +21,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=0EA5E9&icon_color=38BDF8&text_color=7DD3FC
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=00000000&title_color=0EA5E9&icon_color=38BDF8&text_color=7DD3FC&border_color=38BDF8&ring_color=0EA5E9
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -29,7 +29,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=0EA5E9&text_color=7DD3FC
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&bg_color=00000000&title_color=0EA5E9&text_color=7DD3FC&border_color=38BDF8
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -58,7 +58,7 @@ jobs:
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: ${{ github.repository_owner }}
-          options: theme=react-dark&hide_border=true&bg_color=00000000&color=7DD3FC&line=0EA5E9&point=38BDF8&area=true
+          options: hide_border=true&bg_color=00000000&color=7DD3FC&line=0EA5E9&point=38BDF8&area=true&area_color=38BDF8&title_color=0EA5E9
           output_path: dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
