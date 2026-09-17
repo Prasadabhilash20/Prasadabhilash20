@@ -1,143 +1,516 @@
-<div align="center">
+<!-- ========================================================= -->
+<!--                    PROFILE BANNER                         -->
+<!-- ========================================================= -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/main/assets/banner-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/main/assets/banner-light.png">
-  <img alt="Profile Banner" src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/main/assets/banner-light.png" width="100%">
-</picture>
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/banner-dark.png"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./assets/banner-light.png"
+    />
+    <img
+      src="./assets/banner-light.png"
+      alt="Abhilash Prasad Banner"
+      width="100%"
+    />
+  </picture>
+</p>
 
-<br><br>
+<!-- ========================================================= -->
+<!--                       INTRO                               -->
+<!-- ========================================================= -->
 
-# Hey there, I'm Abhilash Prasad 👋
+<h1 align="center">
+  Hey there, I'm ABHILASH PRASAD 👋
+</h1>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Computer+Science+Graduate+%F0%9F%8E%93;Python+%7C+Django+Developer+%F0%9F%92%BB;Backend+%26+Software+Engineering;IT+Support+%26+Systems+%F0%9F%94%A7" alt="Typing SVG" />
-</a>
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Software+Developer;Python+%7C+Django+Developer;Backend+Developer;Computer+Science+Graduate;IT+Support+%26+Technical+Troubleshooting"
+    alt="Typing SVG"
+  />
+</p>
 
-<br><br>
+<p align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=Prasadabhilash20&label=PROFILE%20VIEWS&color=38BDF8&style=for-the-badge"
+    alt="Profile Views"
+  />
+  <img
+    src="https://img.shields.io/github/followers/Prasadabhilash20?label=FOLLOWERS&style=for-the-badge&color=7DD3FC"
+    alt="GitHub Followers"
+  />
+  <img
+    src="https://img.shields.io/github/stars/Prasadabhilash20?label=STARS&style=for-the-badge&color=0EA5E9"
+    alt="GitHub Stars"
+  />
+</p>
 
-<img src="https://img.shields.io/github/followers/Prasadabhilash20?label=Followers&style=for-the-badge&color=38BDF8&labelColor=1a1a1a" alt="Followers"/>
-<img src="https://img.shields.io/github/stars/Prasadabhilash20?label=Stars&style=for-the-badge&color=7DD3FC&labelColor=1a1a1a" alt="Stars"/>
-<img src="https://komarev.com/ghpvc/?username=Prasadabhilash20&label=Profile+Views&style=for-the-badge&color=0EA5E9&labelColor=1a1a1a" alt="Profile Views"/>
+---
 
-</div>
+<!-- ========================================================= -->
+<!--                      ABOUT ME                             -->
+<!-- ========================================================= -->
 
-<br>
-
-## 💫 About Me
+## 👨‍💻 About Me
 
 <table>
 <tr>
 <td width="65%" valign="top">
 
-- 🔭 I'm currently working on **Shikayat Saathi — a Django-based College Complaint Management System**
-- 🌱 I'm currently learning **Advanced Django, REST APIs, DSA, Backend Development, Linux & DevOps**
-- 👯 I'm looking to collaborate on **Python/Django & Backend Development projects**
-- 💬 Ask me about **Django, REST APIs, SQL/NoSQL databases, or IT/System Support**
-- 💼 Background in **Graphic Design & IT Support** — branding, troubleshooting, system maintenance
-- 📫 How to reach me: **prasadabhilash542@gmail.com**
+### 👋 Hi, I'm Abhilash Prasad
+
+🎓 **Computer Science Engineering graduate** passionate about building practical and scalable software solutions.
+
+💻 I work with **Python, Django, HTML, CSS, JavaScript, SQL, Git and GitHub**, with a strong interest in backend and web development.
+
+🛠️ I also have hands-on experience in **IT Support**, including hardware/software troubleshooting, OS installation, system maintenance, software configuration and technical support.
+
+🚀 I enjoy building real-world applications and continuously improving my programming, problem-solving and development skills.
+
+### 🎯 Currently Learning
+
+- Advanced Django
+- REST APIs
+- Data Structures & Algorithms
+- Backend Development
+- Linux
+- DevOps fundamentals
+
+### 💼 Open To
+
+**Python/Django Development • Backend Development • Software Engineering • IT Support**
 
 </td>
-<td width="35%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/main/assets/profile-illustration.gif" width="100%">
+<td width="35%" align="center" valign="middle">
+
+<img
+  src="./assets/blue%20Coat.jpeg"
+  alt="Abhilash Prasad"
+  width="300"
+  height="300"
+  style="object-fit: cover; border-radius: 18px;"
+/>
 
 </td>
 </tr>
 </table>
 
-<br>
+---
+
+<!-- ========================================================= -->
+<!--                     TECH STACK                            -->
+<!-- ========================================================= -->
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+<h3 align="left">💻 Programming Languages</h3>
 
-<img src="https://skillicons.dev/icons?i=html,css,js,py,django,java,cpp,mysql,postgres,sqlite,mongodb,git,github,linux,figma,ps&theme=light" />
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python" height="55" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=java" height="55" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=cpp" height="55" />
+</p>
 
-</div>
+
+
+<h3 align="left">🌐 Web Development</h3>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html" height="55" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=css" height="55" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=js" height="55" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=bootstrap" height="55" />
+</p>
+
+
+
+<h3 align="left">⚙️ Framework & Backend</h3>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=django" height="55" />
+</p>
+
+
+
+<h3 align="left">🗄️ Databases</h3>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mysql" height="55" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=mongodb" height="55" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=sqlite" height="55" />
+</p>
+
+
+
+<h3 align="left">📊 Data & Analytics</h3>
+
+<p align="left">
+  <img
+    src="https://img.shields.io/badge/Pandas-38BDF8?style=for-the-badge&logo=pandas&logoColor=white"
+    height="35"
+  />
+  &nbsp;&nbsp;
+  <img
+    src="https://img.shields.io/badge/NumPy-7DD3FC?style=for-the-badge&logo=numpy&logoColor=111827"
+    height="35"
+  />
+  &nbsp;&nbsp;
+  <img
+    src="https://img.shields.io/badge/Matplotlib-0EA5E9?style=for-the-badge&logo=python&logoColor=white"
+    height="35"
+  />
+</p>
+
+
+
+<h3 align="left">🔧 Tools & Platforms</h3>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git" height="55" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=github" height="55" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=vscode" height="55" />
+</p>
+
+
+
+<h3 align="left">🐧 Operating Systems</h3>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=linux" height="55" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=windows" height="55" />
+</p>
+
+
+
+<h3 align="left">🧠 Core Concepts</h3>
+
+<p align="left">
+  <img
+    src="https://img.shields.io/badge/DSA-38BDF8?style=for-the-badge"
+    height="35"
+  />
+  &nbsp;&nbsp;
+  <img
+    src="https://img.shields.io/badge/OOP-7DD3FC?style=for-the-badge&logoColor=111827"
+    height="35"
+  />
+  &nbsp;&nbsp;
+  <img
+    src="https://img.shields.io/badge/DBMS-0EA5E9?style=for-the-badge"
+    height="35"
+  />
+</p>
+
+---
+
+<!-- ========================================================= -->
+<!--                     EXPERIENCE                            -->
+<!-- ========================================================= -->
+
+## 💼 Experience
+
+### 🖥️ Graphic Design & IT Support
+**Webdoid Technologies — Bhopal**
+
+- Created logos, posters and digital creatives for branding and marketing.
+- Worked with digital signatures and system maintenance.
+- Performed software installation, configuration and updates.
+- Troubleshot hardware and software issues.
+- Performed disk cleanup and system performance troubleshooting.
+- Assisted with backup and recovery tasks.
+
+### 🔧 IT Support Trainee
+**Bharat Heavy Electricals Limited (BHEL) — Bhopal**
+
+- Desktop and laptop deployment.
+- Operating system, software, driver and antivirus installation.
+- Hardware and software troubleshooting.
+- System maintenance and updates.
+- Performance monitoring and technical issue documentation.
+
+---
+
+<!-- ========================================================= -->
+<!--                    FEATURED PROJECTS                       -->
+<!-- ========================================================= -->
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏫 Shikayat Saathi
+
+<img
+  src="https://opengraph.githubassets.com/1/Prasadabhilash20/Shikayat_Saathi"
+  alt="Shikayat Saathi"
+  width="100%"
+/>
+
+**College Complaint Management System**
+
+A Django-based complaint management prototype designed to digitize complaint registration, tracking, assignment and escalation.
+
+**Tech:**
+
+`Python` `Django` `HTML` `CSS` `Bootstrap` `JavaScript` `SQLite`
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🐙 GitHub Profile Update
+
+<img
+  src="https://opengraph.githubassets.com/1/Prasadabhilash20/Prasadabhilash20"
+  alt="GitHub Profile"
+  width="100%"
+/>
+
+A continuously improved GitHub profile showcasing my development journey, projects, technical skills and contributions.
+
+**Focus:**
+
+`GitHub` `Markdown` `GitHub Actions` `Profile Development`
 
 <br>
+
+<a href="https://github.com/Prasadabhilash20">
+  <img
+    src="https://img.shields.io/badge/View%20GitHub-38BDF8?style=for-the-badge&logo=github&logoColor=white"
+  />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ========================================================= -->
+<!--                  GITHUB ANALYTICS                         -->
+<!-- ========================================================= -->
 
 ## 📊 GitHub Analytics
 
-<div align="center">
+<p align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Prasadabhilash20&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=38BDF8&icon_color=0EA5E9&text_color=7DD3FC" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prasadabhilash20&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=38BDF8&text_color=7DD3FC" />
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Prasadabhilash20&theme=transparent&title_color=38BDF8&text_color=7DD3FC&bg_color=00000000&border_color=38BDF8&icon_color=0EA5E9"
+  alt="GitHub Stats"
+/>
 
-<br>
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Prasadabhilash20&theme=transparent&title_color=38BDF8&text_color=7DD3FC&bg_color=00000000&border_color=38BDF8&icon_color=0EA5E9"
+  alt="Top Languages"
+/>
 
-<img width="70%" src="https://streak-stats.demolab.com/?user=Prasadabhilash20&theme=tokyonight&hide_border=true&background=00000000&ring=0EA5E9&fire=38BDF8&currStreakLabel=7DD3FC" />
+</p>
 
-<br><br>
+<p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prasadabhilash20&theme=react-dark&hide_border=true&bg_color=00000000&color=7DD3FC&line=0EA5E9&point=38BDF8" width="90%"/>
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Prasadabhilash20&theme=transparent&title_color=38BDF8&text_color=7DD3FC&bg_color=00000000&border_color=38BDF8&icon_color=0EA5E9"
+  alt="GitHub Profile Details"
+/>
 
-</div>
+</p>
 
-<br>
+---
+
+<!-- ========================================================= -->
+<!--                    GITHUB STREAK                          -->
+<!-- ========================================================= -->
+
+## 🔥 GitHub Streak
+
+<p align="center">
+
+<img
+  src="https://streak-stats.demolab.com/?user=Prasadabhilash20&hide_border=true&background=00000000&ring=38BDF8&fire=0EA5E9&currStreakLabel=38BDF8&sideLabels=7DD3FC&currStreakNum=0EA5E9&sideNums=38BDF8&dates=7DD3FC"
+  alt="GitHub Streak"
+/>
+
+</p>
+
+---
+
+<!-- ========================================================= -->
+<!--                  GITHUB ACTIVITY                          -->
+<!-- ========================================================= -->
+
+## 📈 GitHub Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Prasadabhilash20"
+    alt="GitHub Activity Graph"
+  />
+</p>
+
+---
+
+<!-- ========================================================= -->
+<!--                 CONTRIBUTION SNAKE                        -->
+<!-- ========================================================= -->
+
 
 ## 🐍 Contribution Snake
 
-<div align="center">
+<p align="center">
 
-<img src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/blue-snake.svg" width="90%">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/gh-pages/github-contribution-grid-snake-dark.svg"
+  />
 
-</div>
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/gh-pages/github-contribution-grid-snake.svg"
+  />
+
+  <img
+    src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/gh-pages/github-contribution-grid-snake.svg"
+    alt="GitHub Contribution Snake"
+  />
+
+</picture>
+
+</p>
+
+---
+
+<!-- ========================================================= -->
+<!--                   GITHUB ACTION                           -->
+<!-- ========================================================= -->
 
 <!--
-  Add this GitHub Action to generate the snake above:
-  (create .github/workflows/snake.yml in your profile repo)
+IMPORTANT:
+Create this file:
 
-  name: Generate Snake
-  on:
-    schedule:
-      - cron: "0 0 * * *"
-    workflow_dispatch:
-    push:
-      branches:
-        - main
-  jobs:
-    generate:
-      permissions:
-        contents: write
-      runs-on: ubuntu-latest
-      steps:
-        - uses: Platane/snk@v3
-          with:
-            github_user_name: Prasadabhilash20
-            outputs: |
-              dist/blue-snake.svg?color_snake=%230EA5E9&color_dots=%237DD3FC,%2338BDF8,%230EA5E9,%2338BDF8,%237DD3FC
-        - uses: crazy-max/ghaction-github-pages@v4
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+.github/workflows/snake.yml
+
+Use the following workflow:
+
+name: Generate GitHub Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Prasadabhilash20
+          outputs: |
+            dist/github-snake.svg?color_snake=#38BDF8&color_dots=#0EA5E9,#7DD3FC,#38BDF8,#0EA5E9,#38BDF8
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#38BDF8&color_dots=#0EA5E9,#7DD3FC,#38BDF8,#0EA5E9,#38BDF8
+
+      - name: Publish snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 -->
 
-<br>
+---
 
-## 🤝 Connect With Me
+<!-- ========================================================= -->
+<!--                     CONNECT                              -->
+<!-- ========================================================= -->
 
-<div align="center">
+## 🤝 Let's Connect
 
-<a href="https://www.linkedin.com/in/prasadabhilash20/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white" />
+<p align="center">
+
+<a href="mailto:prasadabhilash542@gmail.com">
+  <img
+    src="https://img.shields.io/badge/Email-38BDF8?style=for-the-badge&logo=gmail&logoColor=white"
+    alt="Email"
+  />
 </a>
-<a href="https://instagram.com/_abhilash_prasad_" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-0EA5E9?style=for-the-badge&logo=instagram&logoColor=white" />
+
+<a href="YOUR_LINKEDIN_URL">
+  <img
+    src="https://img.shields.io/badge/LinkedIn-0EA5E9?style=for-the-badge&logo=linkedin&logoColor=white"
+    alt="LinkedIn"
+  />
 </a>
-<a href="mailto:prasadabhilash542@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-7DD3FC?style=for-the-badge&logo=gmail&logoColor=black" />
+
+<a href="YOUR_X_URL">
+  <img
+    src="https://img.shields.io/badge/X-38BDF8?style=for-the-badge&logo=x&logoColor=white"
+    alt="X"
+  />
 </a>
 
-</div>
+<a href="YOUR_INSTAGRAM_URL">
+  <img
+    src="https://img.shields.io/badge/Instagram-7DD3FC?style=for-the-badge&logo=instagram&logoColor=111827"
+    alt="Instagram"
+  />
+</a>
 
-<br>
+<a href="YOUR_TIKTOK_URL">
+  <img
+    src="https://img.shields.io/badge/TikTok-0EA5E9?style=for-the-badge&logo=tiktok&logoColor=white"
+    alt="TikTok"
+  />
+</a>
 
-<div align="center">
+<a href="YOUR_YOUTUBE_URL">
+  <img
+    src="https://img.shields.io/badge/YouTube-38BDF8?style=for-the-badge&logo=youtube&logoColor=white"
+    alt="YouTube"
+  />
+</a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,100:0EA5E9&height=150&section=footer" width="100%"/>
+</p>
 
-</div>
+---
+
+<!-- ========================================================= -->
+<!--                       FOOTER                              -->
+<!-- ========================================================= -->
+
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=FFFFFF&animation=fadeIn&fontAlignY=65&color=0:38BDF8,50:7DD3FC,100:0EA5E9"
+    width="100%"
+    alt="Footer"
+  />
+</p>
