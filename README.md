@@ -310,28 +310,11 @@ A continuously improved GitHub profile showcasing my development journey, projec
 
 ## 📊 GitHub Analytics
 
-<p align="center">
-
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Prasadabhilash20&theme=transparent&title_color=38BDF8&text_color=7DD3FC&bg_color=00000000&border_color=38BDF8&icon_color=0EA5E9"
-  alt="GitHub Stats"
-/>
-
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Prasadabhilash20&theme=transparent&title_color=38BDF8&text_color=7DD3FC&bg_color=00000000&border_color=38BDF8&icon_color=0EA5E9"
-  alt="Top Languages"
-/>
-
-</p>
-
-<p align="center">
-
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Prasadabhilash20&theme=transparent&title_color=38BDF8&text_color=7DD3FC&bg_color=00000000&border_color=38BDF8&icon_color=0EA5E9"
-  alt="GitHub Profile Details"
-/>
-
-</p>
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Prasadabhilash20&theme=holi&animation=rise)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Prasadabhilash20&theme=holi&animation=rise)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Prasadabhilash20&theme=holi&animation=rise)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Prasadabhilash20&theme=holi&animation=rise)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Prasadabhilash20&theme=holi&animation=rise&utcOffset=0)
 
 ---
 
