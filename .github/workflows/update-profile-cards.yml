@@ -47,11 +47,21 @@ jobs:
           git commit -m "Update profile stats and streak cards" || exit 0
           git push
 
-  update-snake:
+  update-visuals:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: theme=react-dark&hide_border=true&bg_color=00000000&color=7DD3FC&line=0EA5E9&point=38BDF8&area=true
+          output_path: dist/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
@@ -59,7 +69,7 @@ jobs:
           outputs: |
             dist/blue-snake.svg?color_snake=%230EA5E9&color_dots=%237DD3FC,%2338BDF8,%230EA5E9,%2338BDF8,%237DD3FC
 
-      - name: Publish snake to output branch
+      - name: Publish activity graph and snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
