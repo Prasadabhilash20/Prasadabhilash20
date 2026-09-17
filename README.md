@@ -326,10 +326,7 @@ A continuously improved GitHub profile showcasing my development journey, projec
 
 <p align="center">
 
-<img
-  src="https://streak-stats.demolab.com/?user=Prasadabhilash20&hide_border=true&background=00000000&ring=38BDF8&fire=0EA5E9&currStreakLabel=38BDF8&sideLabels=7DD3FC&currStreakNum=0EA5E9&sideNums=38BDF8&dates=7DD3FC"
-  alt="GitHub Streak"
-/>
+<img src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/main/profile/streak.svg" alt="GitHub Streak" />
 
 </p>
 
