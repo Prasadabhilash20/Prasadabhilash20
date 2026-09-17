@@ -340,7 +340,7 @@ A continuously improved GitHub profile showcasing my development journey, projec
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Prasadabhilash20"
+    src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/activity-graph.svg"
     alt="GitHub Activity Graph"
   />
 </p>
