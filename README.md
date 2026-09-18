@@ -354,27 +354,11 @@ A continuously improved GitHub profile showcasing my development journey, projec
 
 ## 🐍 Contribution Snake
 
-<p align="center">
-
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/github-snake-dark.svg"
-  />
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/github-snake.svg"
-  />
-
-  <img
-    src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/github-snake.svg"
-    alt="GitHub Contribution Snake"
-  />
-
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/github-snake.svg">
+  <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/github-snake.svg">
 </picture>
-
-</p>
 
 ---
 
