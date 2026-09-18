@@ -359,7 +359,6 @@ A continuously improved GitHub profile showcasing my development journey, projec
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/github-snake.svg">
   <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/Prasadabhilash20/Prasadabhilash20/output/github-snake.svg">
 </picture>
-
 ---
 
 <!-- ========================================================= -->
