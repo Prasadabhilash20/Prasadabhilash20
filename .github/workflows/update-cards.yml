@@ -1,0 +1,13 @@
+# Generate activity graph properly using official action
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output_filepath: dist/activity-graph.svg
+          theme: react-dark
+          bg_color: 0D1117
+          color: 38BDF8
+          line: 38BDF8
+          point: 7DD3FC
+          area: true
+          hide_border: true
