@@ -1,0 +1,50 @@
+name: Update Activity Graph (cached)
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # Daily try, 6 AM UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-activity-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Try fetching fresh activity graph
+        id: fetch
+        run: |
+          mkdir -p profile
+          URL="https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=react-dark&hide_border=true&bg_color=00000000&color=7DD3FC&line=0EA5E9&point=38BDF8&area=true"
+
+          # -f: fail on server error instead of saving the error page
+          # --max-time: don't hang forever if the server is stuck
+          if curl -f -s --max-time 20 "$URL" -o profile/activity-graph.new.svg; then
+            # sanity check: file must actually contain valid SVG, not an empty/error response
+            if grep -q "<svg" profile/activity-graph.new.svg; then
+              mv profile/activity-graph.new.svg profile/activity-graph.svg
+              echo "updated=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "Fetched file wasn't a valid SVG, keeping old cached version."
+              rm -f profile/activity-graph.new.svg
+              echo "updated=false" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "Live server unavailable today, keeping old cached version."
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit cached graph if it changed
+        if: steps.fetch.outputs.updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/activity-graph.svg
+          git commit -m "Refresh cached activity graph" || exit 0
+          git push
