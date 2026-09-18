@@ -25,9 +25,9 @@ jobs:
       - name: Create dist directory
         run: mkdir -p dist
 
-      # 1. Generate Activity Graph
+      # 1. Generate Activity Graph (Fixed Version to v1.3.0)
       - name: Generate activity graph
-        uses: maurodesouza/github-readme-activity-graph@v2
+        uses: maurodesouza/github-readme-activity-graph@v1.3.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           output_filepath: dist/activity-graph.svg
@@ -48,7 +48,7 @@ jobs:
             dist/github-snake.svg?color_snake=%230EA5E9&color_dots=%23ffffff,%23ffffff,%23ffffff,%23ffffff,%23ffffff
             dist/github-snake-dark.svg?color_snake=%230EA5E9&color_dots=%23ffffff,%23ffffff,%23ffffff,%23ffffff,%23ffffff
 
-      # 3. Single Push to Output Branch
+      # 3. Publish Both SVGs to Output Branch
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
