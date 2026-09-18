@@ -2,8 +2,8 @@ name: Update Profile Cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"   # Har din raat 12 baje (UTC) apne aap chalega
+  workflow_dispatch:        # Actions tab se manually bhi chala sakte ho
   push:
     branches:
       - main
@@ -12,44 +12,64 @@ permissions:
   contents: write
 
 jobs:
-  generate-all-assets:
+  update-stats-and-streak:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - name: Create output directories
-        run: mkdir -p dist profile
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=00000000&title_color=0EA5E9&icon_color=38BDF8&text_color=7DD3FC&border_color=38BDF8&ring_color=0EA5E9
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 1. Download GitHub Stats Card
-      - name: Generate Stats Card
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&bg_color=00000000&title_color=0EA5E9&text_color=7DD3FC&border_color=38BDF8
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&hide_border=true&background=00000000&ring=38BDF8&fire=0EA5E9&currStreakLabel=38BDF8&sideLabels=7DD3FC&currStreakNum=0EA5E9&sideNums=38BDF8&dates=7DD3FC
+          path: profile/streak.svg
+
+      - name: Commit generated cards
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=00000000&title_color=0EA5E9&icon_color=38BDF8&text_color=7DD3FC" -o dist/stats.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update profile stats and streak cards" || exit 0
+          git push
 
-      # 2. Download Top Languages Card
-      - name: Generate Top Languages Card
-        run: |
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&hide_border=true&bg_color=00000000&title_color=0EA5E9&text_color=7DD3FC" -o dist/top-langs.svg
+  update-visuals:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
 
-      # 3. Download Streak Stats Card
-      - name: Generate Streak Card
-        run: |
-          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=${{ github.repository_owner }}&hide_border=true&background=00000000&ring=38BDF8&fire=0EA5E9&currStreakLabel=38BDF8&sideLabels=7DD3FC&currStreakNum=0EA5E9&sideNums=38BDF8&dates=7DD3FC" -o dist/streak.svg
+      - name: Generate activity graph
+        uses: DevTwilight/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: hide_border=true&bg_color=00000000&color=7DD3FC&line=0EA5E9&point=38BDF8&area=true&area_color=38BDF8&title_color=0EA5E9
+          output_path: dist/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 4. Download Activity Graph
-      - name: Generate Activity Graph
-        run: |
-          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=react-dark&bg_color=00000000&color=38BDF8&line=0EA5E9&point=7DD3FC&area=true&hide_border=true" -o dist/activity-graph.svg
-
-      # 5. Generate Contribution Snake
-      - name: Generate Contribution Snake
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/blue-snake.svg?color_snake=%230EA5E9&color_dots=%237DD3FC,%2338BDF8,%230EA5E9,%2338BDF8,%237DD3FC
 
-      # 6. Publish ALL generated cards & snake to output branch
-      - name: Publish all visuals to output branch
+      - name: Publish activity graph and snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
