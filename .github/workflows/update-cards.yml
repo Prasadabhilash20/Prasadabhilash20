@@ -1,4 +1,4 @@
-name: Update Activity Graph
+name: Update Profile Visuals
 
 on:
   schedule:
@@ -9,21 +9,23 @@ on:
       - main
 
 concurrency:
-  group: activity-graph-workflow
+  group: profile-visuals-workflow
   cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
-  generate-graph:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       - name: Create dist directory
         run: mkdir -p dist
 
+      # 1. Generate Activity Graph
       - name: Generate activity graph
         uses: maurodesouza/github-readme-activity-graph@v2
         with:
@@ -37,6 +39,16 @@ jobs:
           area: true
           hide_border: true
 
+      # 2. Generate Contribution Snake (Blue Snake + White Grid)
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Prasadabhilash20
+          outputs: |
+            dist/github-snake.svg?color_snake=%230EA5E9&color_dots=%23ffffff,%23ffffff,%23ffffff,%23ffffff,%23ffffff
+            dist/github-snake-dark.svg?color_snake=%230EA5E9&color_dots=%23ffffff,%23ffffff,%23ffffff,%23ffffff,%23ffffff
+
+      # 3. Single Push to Output Branch
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
