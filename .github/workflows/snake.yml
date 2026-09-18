@@ -25,10 +25,10 @@ jobs:
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Prasadabhilash20
           outputs: |
-            dist/github-snake.svg?color_snake=%230EA5E9&color_dots=%23ebedf0,%23c6e48b,%237bc96f,%23239a3b,%23196127
-            dist/github-snake-dark.svg?color_snake=%230EA5E9&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
+            dist/github-snake.svg?color_snake=%230EA5E9&color_dots=%23ffffff,%23ffffff,%23ffffff,%23ffffff,%23ffffff
+            dist/github-snake-dark.svg?color_snake=%230EA5E9&color_dots=%23ffffff,%23ffffff,%23ffffff,%23ffffff,%23ffffff
 
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v4
